@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:cursive;
+background-color:black;
+}
+
+.navbar {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;
+  top: 2px;
+  background: rgba(98, 113, 90, 0.6) url(
+'https://media.geeksforgeeks.org/wp-content/uploads/20201215124609/Capture-300x14.PNG');
+  background-blend-mode: darken;
+  background-size: cover;
+  color: white;
+  padding: 10px 20px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list li:last-child {
+  margin-right: 0;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+  color: #ffd700;
+  /* Change the color on hover */
+}
+
+.rightNav {
+  text-align: right;
+}
+
+#search {
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #ffd700;
+  color: #000;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #000;
+  /* Change the background color on hover */
+  color: #ffd700;
+}
+
+#name{
+  font-size: 4em;
+  text-align: 50px;;
+  font-weight: bold;
+  font-family:cursive;
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(to right, #dfdfc5 2%, white 10%, #99a557 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 5s linear infinite;
+}
+@keyframes  animate {
+  0% {
+    background-position: 0;
+  }
+  50% {
+    background-position: 470px;
+  }
+  100% {
+    background-position: 470px;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+border-radius:20px;
+border: 5px solid gray;
+}
+#section2{
+background-color:#3B3B3B;
+height:500px;
+}
+
+
+#about {
+  width: 900px;
+  height: 350px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 30px;
+text-align:center;
+border-radius:25px;
+margin:30px 60px 75px 500px;
+}
+
+#intro
+{
+color:white;
+font-size:20px;
+
+}
+#section3{
+background-color:#898989;
+height:450px;
+}
+h1{
+text-align:center;
+color:white;
+}
+.gallery
+{
+display: block;
+  margin-left: 50px;
+  height:80%;
+  width: 20%;
+border-radius:20px;
+border: 5px solid black;
+}
+.gallery2
+{
+display: block;
+  margin-left: 500px;
+margin-top: -370px;
+  height:80%;
+  width: 20%;
+border-radius:20px;
+border: 5px solid black;
+}
+.gallery3
+{
+display: block;
+  margin-left: 970px;
+margin-top: -370px;
+  height:80%;
+  width: 20%;
+border-radius:20px;
+border: 5px solid black;
+}
+.gallery4
+{
+display: block;
+  margin-left: 1450px;
+margin-top: -370px;
+  height:80%;
+  width: 20%;
+border-radius:20px;
+border: 5px solid black;
+}
